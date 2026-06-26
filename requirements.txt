@@ -1,0 +1,13 @@
+# Static website — no dependencies to install.
+# Open index.html directly in a browser to run the project.
+#
+# Project files:
+#   index.html       - Structure and all page content
+#   style.css        - Styles, dark theme, responsive layout
+#   main.js          - Scroll effects, nav highlight, hamburger menu, reveal animations
+#   translation.js   - Translations (EN / DE / FR) + language switcher logic
+#   Farelle.jpg      - Profile photo
+#
+# External resource loaded via CDN at runtime:
+#   Google Fonts (Inter, JetBrains Mono)
+#   https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500
