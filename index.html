@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Farelle Tchoukwe Yonzue — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">FT<span class="accent">.</span></span>
+      <ul class="nav-links">
+        <li><a href="#about" data-i18n="nav.about">Über mich</a></li>
+        <li><a href="#ausbildung" data-i18n="nav.education">Ausbildung</a></li>
+        <li><a href="#experience" data-i18n="nav.experience">Erfahrung</a></li>
+        <li><a href="#projects" data-i18n="nav.projects">Projekte</a></li>
+        <li><a href="#volunteer" data-i18n="nav.volunteer">Ehrenamt</a></li>
+        <li><a href="#skills" data-i18n="nav.skills">Kenntnisse</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Kontakt</a></li>
+      </ul>
+      <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="de">DE</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="fr">FR</button>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content">
+      <p class="hero-greeting" data-i18n="hero.greeting">Hallo, ich bin</p>
+      <h1 class="hero-name">Farelle Tchoukwe<br /><span class="accent">Yonzue</span></h1>
+      <h2 class="hero-title" data-i18n="hero.title">Werkstudentin KI &amp; Master-Studentin Informatik</h2>
+      <p class="hero-sub" data-i18n="hero.sub">
+        Deutschlandstipendiatin · Westfälische Hochschule Gelsenkirchen
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary" data-i18n="hero.cta.projects">Meine Projekte</a>
+        <a href="#contact" class="btn btn-outline" data-i18n="hero.cta.contact">Kontakt aufnehmen</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="avatar-ring">
+        <img src="Farelle.jpg" alt="Farelle Tchoukwe Yonzue" class="avatar-photo" />
+      </div>
+      <div class="floating-badge badge-1"><span class="mono" data-i18n="badge.ai">KI</span></div>
+      <div class="floating-badge badge-2"><span class="mono" data-i18n="badge.ai-agents">KI agenten</span></div>
+      <div class="floating-badge badge-3"><span class="mono">LLM / RAG</span></div>
+      <div class="floating-badge badge-4"><span class="mono">Python</span></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title" data-i18n="section.about">Über mich</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p data-i18n-html="about.p1">
+            Fleißig, dynamisch und engagiert versuche ich immer, zu den Besten zu gehören und das Beste von mir zu geben.
+            Ich wurde in Douala, Kamerun, am 24,06,2003geboren und lebe und studiere seit 2022 in Deutschland. Dank meiner guten Noten
+            wurde ich als <strong>Deutschlandstipendiatin</strong> für die Förderrunden 2023-24, 2024-25 und 2025-26 ausgewählt.
+          </p>
+          <p data-i18n="about.p2">
+            Derzeit studiere ich im Master Informatik an der Westfälischen Hochschule Gelsenkirchen und verbinde
+            akademische Exzellenz mit praktischer Berufserfahrung als Werkstudentin bei der GEBIT Solutions GmbH.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-number">3×</span>
+            <span class="stat-label" data-i18n="stat.stipendium">Deutschlandstipendiatin</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">2,3</span>
+            <span class="stat-label" data-i18n="stat.bachelor">Bachelor-Abschluss</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">2+</span>
+            <span class="stat-label" data-i18n="stat.experience">Jahre Berufserfahrung</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">3</span>
+            <span class="stat-label" data-i18n="stat.languages">Sprachen</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ausbildung -->
+  <section id="ausbildung">
+    <div class="container">
+      <h2 class="section-title" data-i18n="section.education">🎓 Ausbildung</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date" data-i18n="edu.1.date">Okt. 2025 — laufend</div>
+          <div class="timeline-card">
+            <h3 data-i18n="edu.1.title">Master of Science — Informatik</h3>
+            <p class="tl-org" data-i18n="edu.1.org">Westfälische Hochschule Gelsenkirchen</p>
+            <p data-i18n="edu.1.desc">Weiterführendes Informatikstudium nach erfolgreichem Bachelor-Abschluss mit der Note "gut".</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date" data-i18n="edu.2.date">Okt. 2022 — Okt. 2025</div>
+          <div class="timeline-card">
+            <h3 data-i18n="edu.2.title">Bachelor of Science — Informatik</h3>
+            <p class="tl-org" data-i18n="edu.2.org">Westfälische Hochschule Gelsenkirchen</p>
+            <p data-i18n-html="edu.2.desc">Abschluss mit der Gesamtnote <strong>"gut" (2,3)</strong>.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date" data-i18n="edu.3.date">Aug. 2020 — Juli 2022</div>
+          <div class="timeline-card">
+            <h3 data-i18n="edu.3.title">Deutschkurs — TelC C1 für Hochschule</h3>
+            <p class="tl-org" data-i18n="edu.3.org">Kamerun &amp; Deutschland</p>
+            <p data-i18n="edu.3.desc">Intensives Deutschlernen bis zum Niveau C1 für die Hochschulzulassung.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date" data-i18n="edu.4.date">Feb. 2021 — Aug. 2021</div>
+          <div class="timeline-card">
+            <h3 data-i18n="edu.4.title">Ausbildung zum Büro Sekretariat</h3>
+            <p class="tl-org" data-i18n="edu.4.org">Douala, Kamerun</p>
+            <p data-i18n-html="edu.4.desc">Umgang mit Microsoft Office (Word, Excel und PowerPoint).</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date" data-i18n="edu.5.date">Sept. 2013 — Juli 2020</div>
+          <div class="timeline-card">
+            <h3 data-i18n="edu.5.title">Gymnasium — Abitur in Mathematik und Physik</h3>
+            <p class="tl-org" data-i18n="edu.5.org">Douala, Kamerun</p>
+            <p data-i18n-html="edu.5.desc">Abschluss mit der Gesamtnote <strong>"gut" (1,8)</strong>.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="container">
+      <h2 class="section-title" data-i18n="section.experience">💼 Berufserfahrung</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date" data-i18n="exp.1.date">Jan. 2026 — laufend</div>
+          <div class="timeline-card">
+            <h3 data-i18n="exp.1.title">Werkstudentin — KI im Bereich Digitalisierung und Innovation</h3>
+            <p class="tl-org" data-i18n="exp.1.org">TÜV NORD GROUP · Essen</p>
+            <p data-i18n="exp.1.desc1">KI-gestützte Automatisierung von Geschäftsprozessen</p>
+            <p data-i18n="exp.1.desc2">Implementierung von KI-Lösungen zur Verbesserung der Effizienz und Qualität von Geschäftsabläufen.</p>
+            <p data-i18n="exp.1.desc3">Implementierung von KI-Agenten</p>
+            <div class="tag-list">
+              <span class="tag">KI-Agenten</span>
+              <span class="tag">Prompt-Engineering</span>
+              <span class="tag">Microsoft Power Platform</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date" data-i18n="exp.2.date">Jan. 2024 — Dez. 2025</div>
+          <div class="timeline-card">
+            <h3 data-i18n="exp.2.title">Werkstudentin — Automated Testing</h3>
+            <p class="tl-org" data-i18n="exp.2.org">GEBIT Solutions GmbH · Düsseldorf</p>
+            <p data-i18n="exp.2.desc">Testautomatisierung von Webseiten und Software</p>
+            <div class="tag-list">
+              <span class="tag">Automatisierte Softwaretests</span>
+              <span class="tag">Jira</span>
+              <span class="tag">SCRUM</span>
+              <span class="tag">Confluence</span>
+              <span class="tag">End-To-End-Tests</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date" data-i18n="exp.3.date">Nov. 2023 — Dez. 2023</div>
+          <div class="timeline-card">
+            <h3 data-i18n="exp.3.title">Praktikum — Java &amp; Front-End Development</h3>
+            <p class="tl-org" data-i18n="exp.3.org">MT-IT Solutions GmbH · Ratingen</p>
+            <p data-i18n="exp.3.desc">Entwicklung von Java/Oracle-Anwendungen sowie Front-End-Softwareentwicklung.</p>
+            <div class="tag-list">
+              <span class="tag">Java</span>
+              <span class="tag">Oracle</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">Angular</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title" data-i18n="section.projects">Projekte</h2>
+      <div class="projects-grid">
+
+        <div class="project-card featured">
+          <div class="project-header">
+            <span class="project-icon">&#129302;</span>
+            <div class="project-links">
+              <span class="project-badge">Agentic AI</span>
+            </div>
+          </div>
+          <h3 data-i18n="proj.1.title">AI executive assistent agent</h3>
+          <p data-i18n="proj.1.desc">
+            Entwicklung eines KI-Agenten zur Verwaltung von E-Mails und Automatisierung von Terminplanungen.
+            Der Agent liest eingehende E-Mails, erkennt mithilfe eines Sprachmodells die Absicht des Nutzers,
+            prüft die Kalenderverfügbarkeit, schlägt geeignete Terminfenster vor und entwirft professionelle
+            Antworten, die nach der Bestätigung durch den Benutzer gesendet werden.
+          </p>
+          <div class="tag-list">
+            <span class="tag">Python</span>
+            <span class="tag">LLM</span>
+            <span class="tag">LangChain</span>
+            <span class="tag">Google Calendar API</span>
+            <span class="tag">Gmail API</span>
+          </div>
+        </div>
+
+        <div class="project-card featured">
+          <div class="project-header">
+            <span class="project-icon">&#129302;</span>
+            <div class="project-links">
+              <span class="project-badge" data-i18n="badge.thesis">Bachelorarbeit</span>
+            </div>
+          </div>
+          <h3 data-i18n="proj.2.title">KI-Generierung von Testfällen</h3>
+          <p data-i18n="proj.2.desc">
+            Entwicklung eines Prototyps zur automatischen KI-Generierung von Testfällen mithilfe einer
+            RAG-Pipeline (Retrieval-Augmented Generation) mit Llama 3 über Ollama.
+          </p>
+          <div class="tag-list">
+            <span class="tag">Python</span>
+            <span class="tag">LLM</span>
+            <span class="tag">RAG</span>
+            <span class="tag">Ollama</span>
+            <span class="tag">Llama 3</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">&#127760;</span>
+            <div class="project-links">
+              <span class="project-badge" data-i18n="badge.web">Webentwicklung</span>
+            </div>
+          </div>
+          <h3 data-i18n="proj.3.title">Professionelles Portfolio</h3>
+          <p data-i18n="proj.3.desc">
+            Entwicklung einer persönlichen Portfolio-Webseite mit JavaScript-Backend
+            und interaktivem Front-End.
+          </p>
+          <div class="tag-list">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">&#128064;</span>
+            <div class="project-links">
+              <span class="project-badge" data-i18n="badge.software">Softwareprojekt</span>
+            </div>
+          </div>
+          <h3 data-i18n="proj.4.title">Visualisierung Java-Programmablauf</h3>
+          <p data-i18n="proj.4.desc">
+            Anwendung zur grafischen Visualisierung des Ablaufs eines Java-Programms, die das
+            schrittweise Nachvollziehen des Programmverhaltens ermöglicht.
+          </p>
+          <div class="tag-list">
+            <span class="tag">Java</span>
+            <span class="tag">JavaFX</span>
+            <span class="tag">GUI</span>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Ehrenamt -->
+  <section id="volunteer">
+    <div class="container">
+      <h2 class="section-title" data-i18n="section.volunteer">🤝 Ehrenamt</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date" data-i18n="vol.1.date">Mai. 2026 — Laufend</div>
+          <div class="timeline-card">
+            <h3 data-i18n="vol.1.title">Freiwillige Lernhelferin</h3>
+            <p class="tl-org" data-i18n="vol.1.org">Lern-Fair</p>
+            <p data-i18n="vol.1.desc">Nachhilfeunterricht in Französisch und Deutsch als Zweitsprache für Schüler mit Schulschwierigkeiten.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title" data-i18n="section.skills">Kenntnisse</h2>
+      <div class="skills-grid">
+
+        <div class="skill-group">
+          <h3 class="skill-group-title" data-i18n="skills.spoken">Sprachen</h3>
+          <div class="skill-pills">
+            <span class="pill pill-lang" data-i18n="lang.french">Französisch — Muttersprache</span>
+            <span class="pill pill-lang" data-i18n="lang.german">Deutsch — Sehr gut</span>
+            <span class="pill pill-lang" data-i18n="lang.english">Englisch — Gut</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title" data-i18n="skills.prog-lang">Programmiersprachen</h3>
+          <div class="skill-pills">
+            <span class="pill">Java</span>
+            <span class="pill">Python</span>
+            <span class="pill">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title" data-i18n="skills.frontend">Front-End</h3>
+          <div class="skill-pills">
+            <span class="pill">Angular</span>
+            <span class="pill">HTML</span>
+            <span class="pill">CSS</span>
+            <span class="pill">JavaFX</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title" data-i18n="skills.databases">Datenbanken</h3>
+          <div class="skill-pills">
+            <span class="pill">MySQL</span>
+            <span class="pill">PostgreSQL</span>
+            <span class="pill">MongoDB</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title" data-i18n="skills.ai">KI &amp; Testing</h3>
+          <div class="skill-pills">
+            <span class="pill">LLM</span>
+            <span class="pill">RAG</span>
+            <span class="pill">LangChain</span>
+            <span class="pill">Unit Testing</span>
+            <span class="pill">Automated Testing</span>
+            <span class="pill">QF-Test</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title" data-i18n="skills.tools">Methoden &amp; Tools</h3>
+          <div class="skill-pills">
+            <span class="pill">SCRUM</span>
+            <span class="pill">Jira</span>
+            <span class="pill">GitHub</span>
+            <span class="pill">Microsoft Office</span>
+            <span class="pill">Confluence</span>
+          </div>
+        </div>
+
+        
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container contact-inner">
+      <h2 class="section-title" data-i18n="section.contact">Kontakt</h2>
+      <p class="contact-lead" data-i18n="contact.lead">
+        Sie möchten zusammenarbeiten oder eine Möglichkeit besprechen? Kontaktieren Sie mich gerne.
+      </p>
+      <div class="contact-cards">
+        <a href="mailto:tchoukwefarelle@gmail.com" class="contact-card">
+          <span class="cc-icon">&#9993;</span>
+          <span class="cc-label" data-i18n="contact.email">Email</span>
+          <span class="cc-value">tchoukwefarelle@gmail.com</span>
+        </a>
+        <a href="tel:+4917667250378" class="contact-card">
+          <span class="cc-icon">&#128222;</span>
+          <span class="cc-label" data-i18n="contact.phone">Telefon</span>
+          <span class="cc-value">+49 176 67250378</span>
+        </a>
+        <a href="https://www.linkedin.com/in/farelle-tchoukwe-yonzue-931889391/" target="_blank" rel="noopener" class="contact-card">
+          <span class="cc-icon">&#128101;</span>
+          <span class="cc-label" data-i18n="contact.linkedin">LinkedIn</span>
+          <span class="cc-value">farelle-tchoukwe-yonzue</span>
+        </a>
+        <div class="contact-card no-link">
+          <span class="cc-icon">&#128205;</span>
+          <span class="cc-label" data-i18n="contact.address">Anschrift</span>
+          <span class="cc-value" data-i18n="contact.city">Gelsenkirchen, Deutschland</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p data-i18n="footer.text">&#169; 2026 Farelle Tchoukwe Yonzue</p>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
