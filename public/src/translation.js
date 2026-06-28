@@ -196,7 +196,7 @@ const translations = {
     'nav.skills': 'Compétences',
     'nav.contact': 'Contact',
     'hero.greeting': 'Bonjour, je suis',
-    'hero.title': 'Alternante IA & Étudiante en Master Informatique',
+    'hero.title': 'Etudiante salariée dans le domaine de l\'IA & Étudiante en Master Informatique',
     'hero.sub': 'Boursière Deutschlandstipendium · Westfälische Hochschule Gelsenkirchen',
     'hero.cta.projects': 'Mes Projets',
     'hero.cta.contact': 'Me contacter',
